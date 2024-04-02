@@ -1,0 +1,43 @@
+create virtual environment "python -m venv env"
+activate python virtual environment by using command "env\Scripts\activate"
+install all the dependencies from requirements.txt using the command "pip install -r requirements.txt"
+start the project using the command "django-admin startproject backend"
+go to backend directory and run command "python manage.py startapp api"
+go to backend then setting.py and change the settings.
+
+now move the requirements.txt into the backend directory 
+create a file in api director "serializers.py"
+
+use command "python manage.py makemigrations" make sure the virtual environment is running and you are in backend directory.
+output should be "No changes detected"
+
+run command "python manage.py migrate"
+
+go to models.py of backend/api and do changes
+
+make a new file urls.py in api directory
+
+
+Frontend;
+come to base directory "django_react_app" install the react here by command "npm create vite@latest frontend -- --template react"
+go to frontend directory "cd frontend"
+install axios, react-router-dom, and jwt-decode libraries using command "npm install axios react-router-dom jwt-decode"
+
+make directories components, pages, styles and constants.js,api.js in src directory
+create .evn file in frontend directory
+
+
+
+
+
+
+
+
+
+changes in file 
+1. backend/backend/settings.py
+2. backend/api/serializers.py
+3. backend/api/view.py
+4. backend/backend/urls.py
+5. backend/api/models.py
+6. backend/api/urls.py
