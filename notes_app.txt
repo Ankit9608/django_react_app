@@ -26,6 +26,10 @@ install axios, react-router-dom, and jwt-decode libraries using command "npm ins
 make directories components, pages, styles and constants.js,api.js in src directory
 create .evn file in frontend directory
 
+create a database in cloud and add the attributes to .env file and the modify the settings.py of backend directory
+create a directory in backend ".choreo" and create a "endpoints.yaml" file
+
+create a "procfile" to run commands 
 
 
 
@@ -41,3 +45,4 @@ changes in file
 4. backend/backend/urls.py
 5. backend/api/models.py
 6. backend/api/urls.py
+7. make .env file in backend
